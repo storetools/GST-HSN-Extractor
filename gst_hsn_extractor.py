@@ -57,3 +57,5 @@ for link in link_list:
       
       
 print(json_list)
+with open("gst-hsn.json", "w") as f:
+            f.write(json.dumps(json_list))
